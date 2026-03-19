@@ -1,4 +1,4 @@
-# Rashad — Portfolio
+<!-- # Rashad — Portfolio
 
 ## Project Structure
 
@@ -23,15 +23,16 @@ rashad-portfolio/
 
 ```html
 <!-- Replace this -->
-<div class="placeholder-box"><div class="ph-icon">📸</div><span>Post screenshot</span></div>
+<!-- <div class="placeholder-box"><div class="ph-icon">📸</div><span>Post screenshot</span></div>
 
 <!-- With this -->
-<div class="gallery-item"><img src="assets/suiball-post-1.png" alt="Suiball post"/></div>
-```
+<!-- <div class="gallery-item"><img src="assets/suiball-post-1.png" alt="Suiball post"/></div>
+``` -->
 
-## Hosting
+<!-- ## Hosting
 
 Easiest free options:
+
 - **Vercel** — drag and drop the folder, done
 - **Netlify** — same, drag and drop
-- **GitHub Pages** — push to repo, enable Pages in settings
+- **GitHub Pages** — push to repo, enable Pages in settings --> --> -->
