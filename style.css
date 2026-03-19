@@ -107,7 +107,7 @@ body {
 }
 
 .header.scrolled {
-  background: rgba(4, 6, 15, 0.9);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom-color: var(--border);
@@ -212,9 +212,7 @@ body {
   display: none;
   position: fixed;
   top: var(--header-h); left: 0; right: 0;
-  background: rgba(4, 6, 15, 0.98);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
   z-index: 199;
   transform: translateY(-6px);
@@ -1467,11 +1465,11 @@ h2.section-title {
    RESPONSIVE — MOBILE (≤ 540px)
 ======================== */
 @media (max-width: 540px) {
-  .section { padding: 60px 0; }
+  .section { padding: 48px 0; }
 
   h1 { font-size: 40px; }
 
-  .hero { padding-top: calc(var(--header-h) + 56px); padding-bottom: 72px; }
+  .hero { padding-top: calc(var(--header-h) + 48px); padding-bottom: 44px; }
 
   /* Gallery single col */
   .gallery {
