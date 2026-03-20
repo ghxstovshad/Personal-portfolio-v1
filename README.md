@@ -35,4 +35,4 @@ Easiest free options:
 
 - **Vercel** — drag and drop the folder, done
 - **Netlify** — same, drag and drop
-- **GitHub Pages** — push to repo, enable Pages in settings --> --> -->
+<!-- - **GitHub Pages** — push to repo, enable Pages in settings -->
