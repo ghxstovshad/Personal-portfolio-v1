@@ -991,65 +991,15 @@ h2.section-title {
 /* ========================
    ABOUT
 ======================== */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 260px;
-  gap: 64px;
-  align-items: start;
+.about-centered {
+  max-width: 640px;
 }
 
 .about-body {
-  font-size: 16px;
+  font-size: clamp(16px, 2.2vw, 18px);
   color: var(--muted2);
-  line-height: 2;
-  max-width: 600px;
+  line-height: 1.95;
   margin-top: 8px;
-}
-
-.about-body strong {
-  color: var(--text);
-  font-weight: 500;
-}
-
-.about-sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  border: 1px solid var(--border);
-  border-radius: var(--r);
-  overflow: hidden;
-  margin-top: 36px;
-}
-
-.sidebar-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 18px 22px;
-  border-bottom: 1px solid var(--border);
-  transition: background 0.2s;
-}
-
-.sidebar-item:last-child {
-  border-bottom: none;
-}
-
-.sidebar-item:hover {
-  background: var(--surface);
-}
-
-.sidebar-key {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 9px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.sidebar-val {
-  font-size: 14px;
-  color: var(--text);
-  font-weight: 500;
 }
 
 /* ========================
@@ -1435,15 +1385,6 @@ h2.section-title {
 
   /* Skills: stay 2 col on tablet */
 
-  /* About */
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .about-sidebar {
-    margin-top: 0;
-  }
 
   /* Contact */
   .contact-inner {
