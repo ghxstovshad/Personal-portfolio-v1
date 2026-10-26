@@ -608,6 +608,7 @@ h2.section-title {
 }
 
 .status-active { color: var(--green); }
+.status-completed { color: var(--muted); }
 
 /* ========================
    BENTO STATS GRID
@@ -938,6 +939,10 @@ h2.section-title {
   color: var(--green);
   border-color: rgba(34,211,160,0.3);
   background: var(--green-dim);
+}
+
+.tag-completed {
+  color: var(--muted);
 }
 
 /* ========================
